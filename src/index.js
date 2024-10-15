@@ -31,7 +31,7 @@ document.addEventListener("DOMContentLoaded", () => {
   
   function displayMoviesMenu(movies) {
     const filmsMenu = document.getElementById('films');
-    filmsMenu.innerHTML = '';  // Clear any placeholder content
+    filmsMenu.innerHTML = '';  // Clear any placeholder contents
   
     movies.forEach(movie => {
       const li = document.createElement('li');
